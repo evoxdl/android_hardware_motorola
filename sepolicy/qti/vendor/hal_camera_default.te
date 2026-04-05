@@ -28,6 +28,9 @@ hal_client_domain(hal_camera_default, vendor_hal_qspmhal)
 
 hal_client_domain(hal_camera_default, hal_cameradesktop)
 hal_client_domain(hal_camera_default, hal_power)
+
+add_service(hal_camera_default, hal_motorola_camera_postproc_service)
+
 get_prop(hal_camera_default, aac_drc_prop)
 get_prop(hal_camera_default, exported_camera_prop)
 get_prop(hal_camera_default, moto_camera_config_prop)
