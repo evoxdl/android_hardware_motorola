@@ -24,7 +24,7 @@ allow hal_camera_default vendor_xdsp_device:chr_file r_file_perms;
 hal_client_domain(hal_camera_default, vendor_hal_qspmhal)
 
 hal_client_domain(hal_camera_default, hal_cameradesktop)
-
+hal_client_domain(hal_camera_default, hal_power)
 get_prop(hal_camera_default, aac_drc_prop)
 get_prop(hal_camera_default, exported_camera_prop)
 get_prop(hal_camera_default, moto_camera_config_prop)

@@ -8,3 +8,10 @@ rw_dir_file(hal_power_default, vendor_sysfs_touchpanel)
 # Sensors
 allow hal_power_default vendor_sysfs_sensors:dir search;
 rw_dir_file(hal_power_default, vendor_sysfs_input)
+
+#walt
+allow hal_power_default proc_walt:dir search;
+allow hal_power_default proc_walt:file rw_file_perms;
+allow hal_power_default vendor_sysfs_msm_perf:file rw_file_perms;
+dontaudit hal_power_default hal_thermal_service:service_manager find;
+dontaudit mediaserver media_quality_service:service_manager find;
