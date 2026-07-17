@@ -62,6 +62,10 @@
 /vendor/lib64/libportrait_repair_ppl3_ocl\.so                                               u:object_r:same_process_hal_file:s0
 /vendor/lib(64)?/libarcsoft_.*\.so              u:object_r:same_process_hal_file:s0
 /vendor/lib(64)?/libanc_hdr.*\.so               u:object_r:same_process_hal_file:s0
+/vendor/lib(64)?/libsdk_sr\.so               u:object_r:same_process_hal_file:s0
+/vendor/lib(64)?/android\.frameworks\.cameraservice\..*\.so    u:object_r:same_process_hal_file:s0
+/vendor/lib(64)?/android\.frameworks\.sensorservice.*\.so      u:object_r:same_process_hal_file:s0
+/vendor/lib(64)?/libQnn.*\.so                                  u:object_r:same_process_hal_file:s0
 
 # Capsense
 /vendor/bin/capsense_reset    u:object_r:capsense_reset_exec:s0
