@@ -1,5 +1,6 @@
 # Capsense
-genfscon sysfs /class/capsense    u:object_r:vendor_sysfs_capsense:s0
+genfscon sysfs /class/capsense              u:object_r:vendor_sysfs_capsense:s0
+genfscon sysfs /devices/virtual/capsense    u:object_r:vendor_sysfs_capsense:s0
 
 # Icnss
 genfscon sysfs /devices/platform/soc/22800000.qcom,icnss/wakeup u:object_r:sysfs_wakeup:s0
